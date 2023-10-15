@@ -1,0 +1,40 @@
+.carousel-container {
+    position: relative;
+    margin-top : 6vw;
+  }
+  
+  img {
+    width: 50vw;
+    height: 400px; 
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .nav-buttons {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25vw; 
+  }
+  
+  .dots-container {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .dots-container span {
+    font-size: 1.5em;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .dots-container span.active {
+    color: rgb(255, 196, 196); 
+  }
